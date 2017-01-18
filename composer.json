@@ -1,0 +1,28 @@
+{
+  "name": "generoi/the-loops",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "The Loops",
+  "homepage": "https://wordpress.org/plugins/the-loops/",
+  "authors": [
+    {
+      "name": "Christoffer Björkskog",
+      "email": "christoffer@genero.fi"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "support": {
+    "issues": "https://github.com/generoi/the-loops/issues"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  },
+  "archive" : {
+    "exclude": [
+      ".gitignore"
+    ]
+  }
+}
